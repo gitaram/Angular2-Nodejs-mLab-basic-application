@@ -7,5 +7,5 @@ Step 2 : Go to the root folder of app and open cmd Open coammand prompt -> <b>np
 Step 3 : Then for pretty look  add bootstrap using command  <b>bower install bootstrap --save</b> <br>
 Step 4 : to run server <b>node server</b> and enter url in browser http://localhost:3000
 
-NOTE : I have used mongo database as Mlab.Make sure to add your <username> <password> for  mLab connection 
-In routers  Task.js customize this url line var db = mongojs(<your mLab url>);
+NOTE : I have used mongo database as Mlab.Make sure to add your mlab url for  mLab connection 
+In routers  Task.js customize this url line var db = mongojs(<-your mLab url->);
